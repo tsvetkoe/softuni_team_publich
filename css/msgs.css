@@ -1,0 +1,35 @@
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (min-width: 700px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 700px;
+  }
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.options-user {
+	display: inline-block;
+	margin-bottom: 20px;
+	border: 1px solid #f5f5f5;
+	border-radius: 10px;
+	right: auto;
+  	left: 0;
+}
