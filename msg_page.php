@@ -23,7 +23,7 @@
 					</form>
 				<?php 
 					if($_POST && $_POST['delete']){
-				 	$con = mysqli_connect("localhost", "demiro", "qwerty", "test");
+				 	$con = mysqli_connect("localhost", "***", "***", "test");
 				 	$query2 = 'DELETE FROM msgs WHERE msg_id = 10+'. $_POST['delete'];			 	
 				 	if(mysqli_query($con, $query2)){
 				 		echo '<div class="container text-center h3">' . 'Success with deleteting' . '</div>';			 		
@@ -35,7 +35,7 @@
 			</header>
 
 			 <?php
-				$link = mysqli_connect("localhost", "demiro", "qwerty", "test");
+				$link = mysqli_connect("localhost", "***", "***", "test");
 				$query = "SELECT author,title,content,dateOf,msg_id FROM msgs";				
 				if (mysqli_connect_errno()) {
 				    printf("Problem with the statement occured!(dev.note)");

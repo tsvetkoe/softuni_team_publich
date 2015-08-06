@@ -14,7 +14,7 @@
 		   strlen($_POST['title'])< 50 && strlen($_POST['msg_content']) < 500){
 			$user = $_SESSION['username'];
 			$date = date("y-m-d");
-			$con = mysqli_connect('localhost', 'demiro', 'qwerty', 'test');
+			$con = mysqli_connect('localhost', '***', '***', '***');
 			mysqli_set_charset($con, 'utf8');	
 			if(!$con){
 				echo 'No connection with DB';

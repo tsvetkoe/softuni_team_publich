@@ -29,7 +29,7 @@
 	}
 
 	if($_POST){
-		$con = mysqli_connect('localhost', 'demiro', 'qwerty', 'test');
+		$con = mysqli_connect('localhost', '***', '***', 'test');
 		if (!$con){
 			echo 'could not connect with the DB';
 		}
