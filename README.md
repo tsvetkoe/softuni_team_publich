@@ -2,9 +2,9 @@
 ###Message Board System(MBS)
 The project by itself is simple message board with user registration and login form. It's all made by php and mysql. The things to be made are noted in issues section labeled "TASK". 
 
-The structure of the project is as follows:
-*Source Code
-*/Docs
+###The structure of the project is as follows:
+ - Source Code
+ - Docs
 	*SRS(Software requirement specification)
 	*Test-Scenarios 
 	*Test-Cases
