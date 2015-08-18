@@ -10,7 +10,7 @@ The project by itself is simple message board with user registration and login f
 	- Test-Cases
  - Qa-Automation
 	- Automation test cases
-#### The Structure of the issue labels are:
+### The Structure of the issue labels are:
  - Bug
 	- Bug reports
  - TASK
